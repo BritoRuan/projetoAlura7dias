@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+/* navbar */
+
+.cabecalho-navegacao {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em;
+}
+
+.cabecalho-logo {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho-navegacao-escrito {
+  margin-left: 4px;
+}
+
+.cabecalho-div {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.cabecalho-div-escrito {
+  font-size: 16px;
+}
+
+.cabecalho-div-button {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.cabecalho-div-button-escrito {
+  font-size: 1em;
+
+}
+
+.cabecalho-div-button-but{
+  background: #8e2424;
+  border-radius: 0.4em;
+  border: none;
+  color: #ffffff;
+  padding: 0.8em;
+}
+
+/* menu-section */
+
+.menu-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.menu-section-paragrafo {
+  font-weight: 600;
+  color: #101828;
+  font-size: 1em;
+  text-align: center;
+}
+
+.menu-section-titulo {
+  font-weight: 600;
+  font-size: 3em;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.menu-section-subtitulo {
+  font-size: 3em;
+  font-weight: 400;
+  font-size: 1.2em;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* menu-section-two */
+
+
+.menu-section-two {
+  display: flex;
+  text-align: center;
+  padding-top: 6em;
+ 
+}
+
+.menu-section-theme1 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.theme1-title {
+  font-weight: 600;
+  font-size: 2.8em;
+  color: #8E2424;
+}
+
+.theme1-subtitle{
+  font-weight: 500;
+  font-size: 1.2em;
+  color:#101828;
+  padding-top: 0.4em;
+}
+
+.theme1-paragraph {
+  font-weight: 400;
+  font-size: 1em;
+  color: #667085;
+  padding: 0.4em;
+}
+
+.theme2-title {
+  font-weight: 600;
+  font-size: 2.8em;
+  color: #8E2424;
+}
+
+.theme2-subtitle{
+  font-weight: 500;
+  font-size: 1.2em;
+  color:#101828;
+  padding-top: 0.4em;
+}
+
+.theme2-paragraph {
+  font-weight: 400;
+  font-size: 1em;
+  color: #667085;
+  padding: 0.4em;
+}
+
+.theme3-title {
+  font-weight: 600;
+  font-size: 2.8em;
+  color: #8E2424;
+}
+
+.theme3-subtitle{
+  font-weight: 500;
+  font-size: 1.2em;
+  color:#101828;
+  padding-top: 0.4em;
+}
+
+.theme3-paragraph {
+  font-weight: 400;
+  font-size: 1em;
+  color: #667085;
+  padding: 0.4em;
+}
+
+.theme4-title {
+  font-weight: 600;
+  font-size: 2.8em;
+  color: #8E2424;
+}
+
+.theme4-subtitle{
+  font-weight: 500;
+  font-size: 1.2em;
+  color:#101828;
+  padding-top: 0.4em;
+}
+
+.theme4-paragraph {
+  font-weight: 400;
+  font-size: 1em;
+  color: #667085;
+  padding: 0.4em;
+}
+
+/* menu-section-three */
+
+.menu-section-div-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.menu-section-three-button {
+  display: flex;
+  margin-bottom: 3em;
+  border: none;
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 1em;
+  color: #8E2424;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.menu-section-div-three-title {
+  font-weight: 500;
+  margin-bottom: 0.8em;
+  font-size: 2em;
+}
+
+.menu-section-div-three-paragraph {
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-size: 1em;
+  color: #667085;
+}
+
+/* menu-section-four */
+
+
+.menu-section-div-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+
+.menu-section-four-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #101828;
+  padding: 2em;
+}
+
+.menu-section-four-subtitle {
+  font-size: 1em;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 0.4em;
+}
+
+.menu-section-four-paragraph {
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 0.4em;
+  color: #667085;
+}
+
+
+/* menu-section-five */
+
+.menu-section-five{
+  margin-top: 2.5em;
+}
+.menu-section-div-five{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 1.4em;
+}
+
+.menu-section-div-inside-dev {
+  border: 1px solid #EAECF0;
+  border-radius: 1em;
+  padding: 1.2em;
+  margin: 1.2em;
+}
+
+
+.menu-section-div-inside-five{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.menu-section-div-inside-paragraph {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #8E2424;
+  margin-bottom: 1.4em;
+}
+
+.menu-section-div-inside-title{
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #101828;
+  text-align: center;
+}
+
+.menu-section-div-inside-five2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2em;
+}
+
+.menu-section-div-inside-paragraph2 {
+  font-weight: 400;
+  font-size: 0.9em;
+  text-align: center;
+  color:#667085;
+  padding-top: 0.8em;
+}
+
+/* footer */
+
+.footer {
+  background: #F9FAFB;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+  padding-top: 4em;
+}
+
+.footer-div-title {
+  font-weight: 600;
+  font-size: 1.6em;
+  text-align: center;
+  color: #101828;
+}
+
+.footer-div-paragraph {
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: center;
+  color:#667085;
+  margin-top: 0.6em;
+}
+
+
+.footer-div2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.footer-div-text {
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 0.6em;
+  padding: 0.6em;
+  margin-right: 0.6em;
+}
+
+.footer-div-button {
+  background: #8E2424;
+  border-radius: 0.6em;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: none;
+  color:#FFFFFF;
+  padding: 0.4em;
+}
+
+
+.footer-paragraph-credits {
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: center;
+  color: #98A2B3;
+  margin-top: 2em;
+}
+
+/* espaçamento / alinhamento */
+
+
+.text-left {
+  text-align: left;
+}
+
+.p-0 {
+  padding:0;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.mx-5 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mr-2em {
+  margin-right: 2em;
+}
